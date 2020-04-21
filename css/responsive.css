@@ -1,0 +1,396 @@
+@media (min-width:992px) and (max-width:1199px){
+
+.service {
+	margin-top: -50px;
+	
+}
+
+.service .box {
+	padding: 8%;
+
+}
+
+.right-box {
+	min-height: 530px;
+}
+
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .hero-text h1 {
+	padding: 0 0%;
+	font-size: 42px;
+    margin-bottom: 40px;
+    }
+
+    .hero-text p {
+	font-size: 16px;
+	padding: 0 0%;
+	margin-bottom: 40px !important;
+}
+
+.service .box {
+	padding: 18%;
+	
+}
+.service .box h5 {
+	margin-bottom: 35px;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.work p {
+	
+	padding: 0px 8%;
+	margin-bottom: 50px !important;
+}
+
+.about-image {
+	position: relative;
+	margin-top: 100px;
+}
+
+.about-info h3 {
+	margin-bottom: 25px;
+}
+
+.about-info p {
+	
+	padding-right: 0%;
+	margin-bottom: 20px !important;
+	
+}
+
+.vd-btn {
+	position: absolute;
+	top: 26%;
+	left: 43%;
+	transform: translate(-50%, -50%);
+}
+
+.logos {
+	margin-top: 50px;
+}
+.brand-info {
+	text-align: left;
+
+}
+
+.brand-info h3 {
+	padding-left: 7%;
+	font-size: 30px;
+	margin-bottom: 35px;
+}
+
+.left-box{
+    margin-bottom: 20px;
+}
+
+
+.right-box {
+	
+	background-position: center top;
+}
+
+.left-box h3 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+
+.contact-info p {
+	text-align: center;
+}
+
+.contact-info h3{
+    text-align: center;
+    font-size: 39px;
+}
+
+
+
+
+}
+
+@media (min-width:576px) and (max-width:767px){
+    
+    .hero-text h1 {
+	padding: 0px 0%;
+	font-size: 40px;
+}
+
+.hero-text p {
+	padding: 0px 0%;
+	
+}
+
+.service {
+	
+	padding-bottom: 40px;
+}
+.service .box {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.service .box .white-line {
+	width: 20%; 
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.work {
+	padding: 40px 0px;
+}
+
+.work h2 {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+
+.work p {
+	text-align: center;
+	padding: 0px 5%;
+	margin-bottom: 60px !important;
+}
+
+.single-box p {
+	padding: 0px 15%;
+	
+}
+
+
+.about-info {
+	text-align: center;
+}
+
+.about-info .btn-custom {
+	margin-bottom: 30px;
+}
+
+.feature-content {
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.feature-content p {
+
+	padding: 0 0%;
+	font-size: 15px;
+}
+
+
+.best-service h3 {
+	padding-right: 0%;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+.best-service p {
+	
+	text-align: center;
+}
+
+.brand-info {
+	text-align: center;
+}
+
+.brand-info h3 {
+	padding-left: 0;
+	
+}
+
+.logos{
+    
+	margin-bottom: 40px !important;
+}
+
+.brand-info p {
+	padding-left: 0;
+}
+
+.left-box{
+
+	text-align: center;
+}
+
+.left-box p {
+	
+	font-size: 14px;
+}
+
+.contact-info {
+	text-align: center;
+}
+
+.contact-info h3 {
+	font-size: 35px;
+	padding-left: 0;
+}
+
+}
+
+@media (min-width:320px) and (max-width:575px){
+    
+.hero-text h1 {
+	padding: 0 0%;
+	font-size: 24px;
+}
+
+.hero-text p {
+	font-size: 15px;
+	padding: 0;
+	margin-bottom: 0 !important;
+}
+
+.hero-text .btn-cta {
+	padding: 10px 35px;
+	margin: 25px auto;
+	display: block;
+	width: 55%;
+}
+
+.hero-text .btn-ghost {
+	padding: 10px 35px;
+	margin: 0px auto;
+	display: block;
+	width: 58%;
+
+}
+
+.service {
+	margin-top: 30px;
+	padding-bottom: 0;
+}
+
+.service .box {
+	margin-bottom: 30px;
+}
+
+.work {
+	padding: 20px 0px;
+}
+
+.work h2 {
+font-size: 24px;
+	
+}
+
+.work p {
+	
+	padding: 0px 0%;
+	margin-bottom: 45px !important;
+}
+
+
+.about-info h3 {
+	font-size: 25px;
+	text-align: center;
+}
+
+
+.about-info {
+    color: #fff;
+	text-align: center;
+}
+
+.about-info .btn-custom {
+	margin-bottom: 30px;
+}
+
+.vd-btn {
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+}
+
+.feature-content {
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.best-service h3 {
+	
+	padding-right: 0;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 24px;
+}
+
+
+.logos {
+	text-align: center;
+}
+
+.brand .image-2 {
+	margin-bottom: 35px;
+}
+
+.brand .image-3 {
+	margin-bottom: 30px;
+}
+
+.brand .image-4 {
+	margin-top: 18px;
+	margin-bottom: 30px;
+}
+
+.brand-info {
+	text-align: center;
+}
+
+.brand-info h3 {
+	padding-left: 0;
+	font-size: 22px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+.left-box {
+	text-align: center;
+}
+
+.left-box h3 {
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.contact {
+    padding: 40px 0px 0px;
+    text-align: center;
+}
+
+.contact-info h3 {
+	font-size: 24px;
+	padding-left: 0;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.contact-info p {
+	margin-bottom: 20px !important;
+	line-height: 1.7;
+	color: #838383;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
