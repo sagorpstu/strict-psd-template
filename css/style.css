@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
-
 *{
 	margin: 0;
 	padding: 0;
@@ -7,7 +5,7 @@
 }
 
 body{
-	font-family: 'Titillium Web', sans-serif;
+	font-family:'Titillium Web', serif;
 }
 
 /* GLobal Css */
@@ -157,6 +155,27 @@ p{
 	margin-bottom: 40px;
 }
 
+/* Blog Section */
+
+.blog-section{
+	padding: 35px 0px 100px;
+}
+
+.blog-section .card{
+	border: 0 !important;
+	margin-bottom: 30px;
+}
+
+.card-header{
+	background-color: #2D3950;
+	color: #fff;
+}
+
+.card-body h4{
+	color: #2D3950;
+}
+
+/* Blog Section */
 /* Service Section */
 
 /* showcase-section */
@@ -248,7 +267,7 @@ form label{
 	margin-left: 10px;
 }
 
-.form-control {
+.contact-section .form-control {
 	padding: 1.8rem 1rem;
 	color: #F6F9F9;
 	background-color: #fff0;
@@ -257,7 +276,7 @@ form label{
 	border-radius: 0.1rem;
 }
 
-.form-control:focus{
+.contact-section .form-control:focus{
 	background-color: transparent;
 	outline: none;
 	
