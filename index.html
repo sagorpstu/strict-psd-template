@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -32,6 +32,9 @@
 						<a class="nav-link" href="#about">About</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link" href="#blog">Blog</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link" href="#portfolio">Gallery</a>
 					</li>
 					<li class="nav-item">
@@ -57,23 +60,33 @@
 					<button type="button" class="btn btn-lg wow zoomInUp slow" data-toggle="modal" data-target="#modelId">
 					  Call To Action
 					</button>
-					
-					<!-- Modal -->
-					<div class="modal fade" id="modelId">
-						<div class="modal-dialog" role="document">
-							<div class="modal-content">
-							
-								<div class="modal-body text-success	">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum animi blanditiis enim vero. Necessitatibus error autem inventore aliquid sed aperiam, reprehenderit itaque fugit quasi voluptatum voluptatibus eos exercitationem illo repudiandae.
-								</div>
+				</div>
+				<!-- Modal -->
+				<div class="modal animated bounceIn" tabindex="-1" role="dialog" id="modelId">
+					<div class="modal-dialog modal-md" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title text-primary">LOGIN HERE</h5>
+								<button class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
 								
+								<form action="post">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Your Username">
+									</div>
+									<div class="form-group">
+										<input type="password" class="form-control" placeholder="Your password">
+									</div>
+								</form>
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-success">Login</button>
 							</div>
 						</div>
 					</div>
-
-
-
-
 				</div>
 			</div>
 		</div>
@@ -117,6 +130,57 @@
 	</div>
 </section>
 <!-- Service Section -->
+
+<!-- Blog Section -->
+<section class="blog-section bg-secondary clear" id="blog">
+	<div class="container text-center">
+		<h1 class="text-light wow slideinright">OUR LATEST BLOG POST</h1>
+		<p class="text-light wow slideinright">Read Our Latest Blog Post Free From Anywhere</p>
+		<div class="row justify-content-center">
+			<div class="col-md-6 col-lg-4">
+				<div class="card border-primary wow slideInLeft">
+					<div class="card-header">
+						<h3 class="h4">WORLD TOP TECH</h3>
+					</div>
+					<img src="img/project5.png" class="img-fluid w-100" alt="">
+					<div class="card-body text-left">
+						<h4 class="h5">Superhit Travel From Home !</h4>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur accusamus obcaecati, quod nemo atque eveniet et id tenetur porro ipsum.</p>
+						<a href="#" class="btn btn-primary">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="card border-primary wow slideInUp">
+					<div class="card-header">
+						<h3 class="h4">WOMAN THE BEAUTY</h3>
+					</div>
+					<img src="img/project2.png" class="img-fluid w-100" alt="">
+					<div class="card-body text-left">
+						<h4 class="h5">Best Girl With Hot Glass !</h4>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur accusamus obcaecati, quod nemoatque eveniet et id tenetur porro ipsum.</p>
+						<a href="#" class="btn btn-primary">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="card border-primary wow slideInRight">
+					<div class="card-header">
+						<h3 class="h4">TOP MAGICAL TRICKS</h3>
+					</div>
+					<img src="img/project3.png" class="img-fluid w-100" alt="">
+					<div class="card-body text-left">
+						<h4 class="h5">Super Mug With The Red !</h4>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur accusamus obcaecati, quod nemo
+							atque eveniet et id tenetur porro ipsum.</p>
+						<a href="#" class="btn btn-primary">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Blog Section -->
 
 <section class="showcase-section bg-color clear" id="portfolio">
 	<div class="container text-center">
